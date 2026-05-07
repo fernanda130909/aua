@@ -1,38 +1,348 @@
-DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas Deliciosas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    /* RESET BÁSICO */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #D9D9D9;
+      color: #333;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      color: #4B3A2B;
+    }
+
+    header a {
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    header a:hover {
+      color: #E98B4B;
+    }
+
+    /* BANNER PRINCIPAL */
+    .banner {
+      position: relative;
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto 40px auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .banner img {
+      width: 100%;
+      display: block;
+    }
+
+    .banner-text {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      background-color: rgba(75, 58, 43, 0.6); /* caixa semitransparente */
+      color: #F0D9C0;
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      padding: 10px 0;
+    }
+
+    /* SEÇÃO DE CARDS */
+    .cards-section {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto 40px auto;
+    }
+
+    .card {
+      position: relative;
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #4B3A2B;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* FOOTER SIMPLES */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-    <nav>
-        <div class="navbar">
-            <div class="container nav-container">
-                <imput class="checkbox" type="checkbox" name="" id=""/>
-            <div class="hamburger-line">
-                <span class="line line 1"></span>
-                <span class="line line 2"></span>
-                <span class="line line 3"></span>
-            </div>
-        </div class="menu - items">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">blogs</a></li>
-        portifolio </a> </li> 
-        <li> <a href="#"    </a></li>
-            </div>
-        </div>
+
+  <!-- HEADER COM CATEGORIAS -->
+  <header>
+    <a href="#">Receitas Rápidas</a>
+    <a href="#">Jantar</a>
+    <a href="#">Almoço</a>
+  </header>
+
+  <!-- BANNER PRINCIPAL -->
+  <section class="banner">
+    <!-- COLOQUE A IMAGEM DO BOLO AQUI -->
+    <img src="banner-bolo.jpg" alt="Bolo delicioso">
+    <div class="banner-text">Receitas Deliciosas</div>
+  </section>
+
+  <!-- SEÇÃO DE CARDS DE RECEITAS -->
+  <section class="cards-section">
+    <div class="card">
+      <!-- COLOQUE A IMAGEM DA RECEITA 1 AQUI -->
+      <img src="receita1.jpg" alt="Receita 1">
+      <div class="card-content">
+        <h3>Pão de Queijo de Frigideira</h3>
+        <p>Uma receita rápida e deliciosa para seu café da manhã ou lanche.</p>
+      </div>
     </div>
-    <div class="nav right">
-    </div class="sevch-container"
-    < input type="tex" placeholder="cep"
+
+    <div class="card">
+      <!-- COLOQUE A IMAGEM DA RECEITA 2 AQUI -->
+      <img src="receita2.jpg" alt="Receita 2">
+      <div class="card-content">
+        <h3>Crepioca Fit</h3>
+        <p>Bata 1 ovo com 2 colheres de goma de tapioca e tenha uma refeição saudável.</p>
+      </div>
     </div>
-    </div class="uons"
-    < a href="#">  <img src="imagem dentrega.png"
-    alt="entrega" class="ucon"> </a>
-    >
-    </nav>
+
+    <div class="card">
+      <!-- COLOQUE A IMAGEM DA RECEITA 3 AQUI -->
+      <img src="<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas Deliciosas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    /* RESET BÁSICO */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #D9D9D9;
+      color: #333;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      color: #4B3A2B;
+    }
+
+    header a {
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    header a:hover {
+      color: #E98B4B;
+    }
+
+    /* BANNER PRINCIPAL */
+    .banner {
+      position: relative;
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto 40px auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .banner img {
+      width: 100%;
+      display: block;
+    }
+
+    .banner-text {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      background-color: rgba(75, 58, 43, 0.6); /* caixa semitransparente */
+      color: #F0D9C0;
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      padding: 10px 0;
+    }
+
+    /* SEÇÃO DE CARDS */
+    .cards-section {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto 40px auto;
+    }
+
+    .card {
+      position: relative;
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #4B3A2B;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* FOOTER SIMPLES */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER COM CATEGORIAS -->
+  <header>
+    <a href="#">Receitas Rápidas</a>
+    <a href="#">Jantar</a>
+    <a href="#">Almoço</a>
+  </header>
+
+  <!-- BANNER PRINCIPAL -->
+  <section class="banner">
+    <!-- COLOQUE A IMAGEM DO BOLO AQUI -->
+    <img src="banner-bolo.jpg" alt="Bolo delicioso">
+    <div class="banner-text">Receitas Deliciosas</div>
+  </section>
+
+  <!-- SEÇÃO DE CARDS DE RECEITAS -->
+  <section class="cards-section">
+    <div class="card">
+      <!-- COLOQUE A IMAGEM DA RECEITA 1 AQUI -->
+      <img src="Frame 2 (1).png" alt="Receita 1">
+      <div class="card-content">
+        <h3>Pão de Queijo de Frigideira</h3>
+        <p>Uma receita rápida e deliciosa para seu café da manhã ou lanche.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <!-- COLOQUE A IMAGEM DOLOQUE A IMAGEM DA RECEITA 3 AQUI -->
+      <img src="reA RECEITA 2 AQUI -->
+      <img src="Frame 2.png" alt="Receita 2">
+      <div class="card-content">
+        <h3>Crepioca Fit</h3>
+        <p>Bata 1 ovo com 2 colheres de goma de tapioca e tenha uma refeição saudável.</p>
+      </div>
+    </div>
+
+  <footer>
+    © 2026 Receitas Deliciosas
+  </footer>
+
+</body>
+</html>"Frame 6.png" alt="Receita 3">
+      <div class="card-content">
+        <h3>Maçã com Canela no Micro-ondas</h3>
+        <p>Simples, rápido e delicioso! Perfeito para sobremesa.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Receitas Deliciosas
+  </footer>
+
 </body>
 </html>
